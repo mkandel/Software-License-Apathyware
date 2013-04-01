@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package Software::License::Apathy;
+package Software::License::Apathyware;
 
 use base 'Software::License';
 # ABSTRACT: Apathyware License
