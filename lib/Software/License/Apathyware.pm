@@ -14,9 +14,10 @@ sub meta2_name { 'open_source' }
 1;
 
 __DATA__
-__LICENSE__
+__NOTICE__
 This software is copyright (c) {{$self->year}} by {{$self->holder}}.
 
 This code is released as Apathyware:
 
 "The code doesn't care what you do with it, and neither do I."
+__LICENSE__
