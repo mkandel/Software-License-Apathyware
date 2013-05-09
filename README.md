@@ -1,1 +1,1 @@
-Testing out Dist::Zilla and Pod::Weaver on this rediculous project.
+Testing out Dist::Zilla and Pod::Weaver on this ridiculous project.

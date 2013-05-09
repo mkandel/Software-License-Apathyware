@@ -5,6 +5,7 @@ use lib '../lib';
 use lib 'lib';
 use Test::More tests => 1;
 #use Test::Exception;
+use Data::Dumper;
 
 my $expected = <<EOT;
 This software is copyright (c) 2013 by Ariba, Inc. (An SAP Company).
@@ -12,6 +13,7 @@ This software is copyright (c) 2013 by Ariba, Inc. (An SAP Company).
 This code is released as Apathyware:
 
 "The code doesn't care what you do with it, and neither do I."
+
 EOT
 
 #use lib '/Users/mkandel/src/POC/dzil/Software-License-Apathyware/lib/';
@@ -23,5 +25,6 @@ my $lic = Software::License::Apathyware->new({
 });
 
 my $out = $lic->fulltext;
+print Dumper $out;
 
 is ( $out, $expected, 'Basic usage' );
