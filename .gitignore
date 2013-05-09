@@ -1,3 +1,7 @@
-Software-License-Apathy*
-.bin
-.build
+*.swp
+*.swo
+Build
+MYMETA.*
+.build/*
+Software-License-Apathyware*
+*.sav
